@@ -1,0 +1,171 @@
+header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #000;
+	border-bottom: #fdf731 solid 6px;
+	height: 90px;
+}
+
+h1{
+	font-family: Merriweather, sans;
+	font-size:30px;
+	font-weight: bold;
+	margin:auto 2%;
+}
+
+h1 a{
+	color:#fdf731;
+}
+
+ul li{
+	display: inline;
+	/*padding-right: 20px;
+	padding-left: 20px;*/
+	vertical-align: middle;
+}
+
+nav{
+	/*width: 50%;*/
+	margin:auto .2%;
+}
+
+nav ul{
+	padding:0;
+}
+
+nav ul li a{
+	color: #fff;
+	padding:5% 2%;
+	width: 100%;
+}
+
+nav ul li a.navLink{
+	font-size: 20px;
+	font-family: Oswald, sans;
+	font-weight: bold;
+}
+
+nav ul li a.navLink2{
+	font-size: 20px;
+	font-family: "Source Sans Pro", sans;
+	font-weight: normal;
+}
+
+nav ul li a:hover{
+	background-color: #ddd;
+	color: #000;
+}
+
+a{
+	text-decoration: none;
+}
+
+h2.tag{
+	background-color: #ddd;
+	margin:0;
+	padding:2.5% 0;
+	text-align: center;
+	font:italic bold 25px "Merriweather", sans;
+}
+
+strike{
+	color:#888;
+}
+
+span{
+	border-bottom: solid #fdf731 4px;
+}
+
+section.img{
+	background-image: url("../images/coworking.jpg");
+	background-position: center;
+	background-size: cover;
+	height:400px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+p{
+	line-height: 25px;
+}
+
+section.img div {
+	width:30%;
+	/*height:45%;*/
+	margin-right: 3%;
+	background-color: rgba(255,255,255,.85);
+	padding:2.5%;
+	border:solid black 1px;
+}
+
+section.img div h2{
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+section.img div p{
+	margin: 5% auto;
+}
+
+section.img div button{
+	width: 80%;
+	text-align: center;
+	margin:0 10%;
+	font:bold 20px Merriweather, sans;
+	background-color: #fdf731;
+	border-radius: 5px;
+	padding:10px;
+}
+
+section.colContainer{
+	margin:1.5%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/*height:200px;*/
+}
+
+section.colContainer div{
+	/*height:;*/
+	width: 20%;
+	/*border: solid black 2px;*/
+	/*margin:2%;*/
+	padding: 0 3%;
+}
+
+section.colContainer div:nth-child(2){
+	border-right: solid #ddd 1px;
+	border-left: solid #ddd 1px;
+}
+
+section.colContainer div button{
+	width: 90%;
+	text-align: center;
+	margin:0 5%;
+	font:bold 20px Merriweather, sans;
+	background-color: #ddd;
+	border-radius: 5px;
+	padding:10px;
+}
+
+footer{
+	background-color: #000;
+	color: #fff; 
+	margin-top: 3%;
+	padding: 1%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
